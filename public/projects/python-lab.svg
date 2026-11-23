@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#070707"/>
+  
+  <!-- Terminal Window -->
+  <rect x="40" y="30" width="720" height="440" rx="10" fill="#0F0F0F" stroke="#262626"/>
+  <rect x="40" y="30" width="720" height="40" rx="10" fill="#171717"/>
+  <circle cx="65" cy="50" r="5" fill="#FF5F56"/>
+  <circle cx="82" cy="50" r="5" fill="#FFBD2E"/>
+  <circle cx="99" cy="50" r="5" fill="#27C93F"/>
+  <text x="400" y="55" fill="#71717A" font-family="'JetBrains Mono', monospace" font-size="11" text-anchor="middle">shiva@dev-machine: ~/experiments/python_lab (main)</text>
+
+  <!-- Code Editor Window -->
+  <g font-family="'JetBrains Mono', monospace" font-size="13">
+    <text x="70" y="105" fill="#71717A">01</text>
+    <text x="110" y="105"><tspan fill="#FF4D00">import</tspan> <tspan fill="#E4E4E7">numpy</tspan> <tspan fill="#FF4D00">as</tspan> <tspan fill="#E4E4E7">np</tspan></text>
+
+    <text x="70" y="135" fill="#71717A">02</text>
+    <text x="110" y="135"><tspan fill="#FF4D00">class</tspan> <tspan fill="#60A5FA">AlgorithmicExperiment</tspan>:</text>
+
+    <text x="70" y="165" fill="#71717A">03</text>
+    <text x="140" y="165"><tspan fill="#FF4D00">def</tspan> <tspan fill="#34D399">__init__</tspan>(<tspan fill="#E4E4E7">self, student_name=</tspan><tspan fill="#FBBF24">"Karlapudi Shivaprasad"</tspan>):</text>
+
+    <text x="70" y="195" fill="#71717A">04</text>
+    <text x="170" y="195"><tspan fill="#E4E4E7">self.role = </tspan><tspan fill="#FBBF24">"B.Tech AI &amp; ML Student"</tspan></text>
+
+    <text x="70" y="225" fill="#71717A">05</text>
+    <text x="170" y="225"><tspan fill="#E4E4E7">self.motto = </tspan><tspan fill="#FBBF24">"Curious by nature. Builder by choice."</tspan></text>
+
+    <text x="70" y="255" fill="#71717A">06</text>
+    <text x="140" y="255"><tspan fill="#FF4D00">def</tspan> <tspan fill="#34D399">execute_pipeline</tspan>(<tspan fill="#E4E4E7">self</tspan>):</text>
+
+    <text x="70" y="285" fill="#71717A">07</text>
+    <text x="170" y="285"><tspan fill="#FF4D00">return</tspan> <tspan fill="#E4E4E7">[</tspan><tspan fill="#FBBF24">"BUILD"</tspan><tspan fill="#E4E4E7">, </tspan><tspan fill="#FBBF24">"EXPERIMENT"</tspan><tspan fill="#E4E4E7">, </tspan><tspan fill="#FBBF24">"REPEAT"</tspan><tspan fill="#E4E4E7">]</tspan></text>
+  </g>
+
+  <!-- Terminal Output Box -->
+  <rect x="70" y="325" width="660" height="120" rx="6" fill="#080808" stroke="#FF4D00" stroke-opacity="0.4"/>
+  <text x="90" y="355" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="12">$ python experiments_runner.py --verbose</text>
+  <text x="90" y="380" fill="#A1A1AA" font-family="'JetBrains Mono', monospace" font-size="11">[OK] Executed 24 script benchmarks across algorithmic modules.</text>
+  <text x="90" y="405" fill="#FF4D00" font-family="'JetBrains Mono', monospace" font-size="11">STATUS: Active Student Developer Lab • Ready for Internships</text>
+  <rect x="90" y="420" width="8" height="14" fill="#FFFFFF"/>
+</svg>
